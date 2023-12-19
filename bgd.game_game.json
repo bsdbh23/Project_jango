@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "65813fc4907977a23680477f"
+  },
+  "id": 3,
+  "name": "The Legend of Zelda",
+  "header_image": "images/pic1.jpg",
+  "title_tag": "The Legend of Zelda",
+  "made_by": "Nintendo",
+  "description": "The Legend of Zelda is an action-adventure game franchise created by the Japanese game designers Shigeru Miyamoto and Takashi Tezuka.",
+  "year_of_release": {
+    "$date": "2020-12-13T00:00:00.000Z"
+  },
+  "price": {
+    "$numberDecimal": "20.00"
+  },
+  "author_id": 1
+},
+{
+  "_id": {
+    "$oid": "65814182907977a236804780"
+  },
+  "id": 4,
+  "name": "Star Wars Jedi: Survivor",
+  "header_image": "images/pic2.jpg",
+  "title_tag": "Star Wars Jedi: Survivor",
+  "made_by": "Electronic Arts",
+  "description": "Star Wars Jedi: Survivor is a 2023 action-adventure game developed by Respawn Entertainment and published by Electronic Arts. The game is the sequel to Star Wars Jedi: Fallen Order (2019), taking place five years after the events of the previous game and continues the adventure of young Jedi Knight, Cal Kestis, as he and his friends continue in their struggle to survive the tyranny of the Galactic Empire.",
+  "year_of_release": {
+    "$date": "2023-04-14T00:00:00.000Z"
+  },
+  "price": {
+    "$numberDecimal": "87.00"
+  },
+  "author_id": 1
+},
+{
+  "_id": {
+    "$oid": "65814628907977a236804781"
+  },
+  "id": 5,
+  "name": "Street Fighter 6",
+  "header_image": "images/images_1.jpg",
+  "title_tag": "Street Fighter 6y site",
+  "made_by": "Capcom",
+  "description": "Street Fighter 6 is a 2023 fighting game developed and published by Capcom. Announced in February 2022, it is the seventh main entry in the Street Fighter franchise, and was released for PlayStation 4, PlayStation 5, Windows and Xbox Series X/S on June 2, 2023, while an arcade version, named Street Fighter 6 Type Arcade, will be published by Taito later in the year. Additionally, a prequel comic book series was unveiled in September 2022.\r\nDeveloped on the RE Engine, Street Fighter 6 supports cross-platform play and rollback netcode. It offers three overarching game modes and three control options. The game also features a real-time commentary system, providing a tournament-style feel and the option to cheer on the player.",
+  "year_of_release": {
+    "$date": "2023-06-11T00:00:00.000Z"
+  },
+  "price": {
+    "$numberDecimal": "122.00"
+  },
+  "author_id": 1
+},
+{
+  "_id": {
+    "$oid": "6581478f907977a236804783"
+  },
+  "id": 6,
+  "name": "Lies of P",
+  "header_image": "images/liofp.jpg",
+  "title_tag": "Lies of P",
+  "made_by": "Neowiz Games",
+  "description": "Lies of P is a Soulslike action role-playing video game developed by Neowiz Games and Round8 Studio, and published by Neowiz Games. The game was released for Xbox One, Xbox Series X/S, Windows, macOS, PlayStation 4, and PlayStation 5 on September 19, 2023. It is loosely based on the 1883 Italian novel The Adventures of Pinocchio by Carlo Collodi.",
+  "year_of_release": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "price": {
+    "$numberDecimal": "35.00"
+  },
+  "author_id": 1
+}]

@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block content%}
+    <h3>List of Games</h3>
+    <ul>
+        {% for game in object_list %}
+        <li><a href = "{% url 'game_details' game.pk %}"><h4>{{game.name}}</a>-{{game.price}} BD</h4><hr>
+            <img src = "{{ game.header_image.url }}" class="img-thumbnail" class="rounded float-right">
+            <hr>
+        </li>
+        {%endfor%}
+    </ul>
+{%endblock%}

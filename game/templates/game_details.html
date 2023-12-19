@@ -1,0 +1,18 @@
+{%extends 'base.html'%}
+{%block title%}
+{{game.title_tag}}
+{%endblock%}
+{%block content%}
+    <h1>{{game.name}}</h1><br/><hr>
+    <h3>Price:{{game.price}} BD</h3>
+    
+<br/>
+ <img src = "{{ game.header_image.url }}" >
+ <hr>
+ <h2>the Publisher(s): {{game.made_by}}</h2>
+ <h2>Release: {{game.year_of_release}}</h2>
+ <p>{{game.description}}</p>
+ <h7>({{game.author}})</h7>
+ <br/><br/>
+    <a href="{%url 'home' %}" class="btn btn-primary">BACK</a>
+    {%endblock%}
