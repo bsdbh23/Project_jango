@@ -12,6 +12,4 @@ This is a repository to my game site using MongoDB data base in a website built 
 Please apply migrations using this command a. python manage.py make migrations b. python manage.py migrate c. python manage.py run server
 11.	In the setting file I modified the database engine to connect to mangodb databsase
 12.	How to use images in DB in the Django Website
-13.	Django Image retrieval from MongoDB - Usage of Djongo Engine and STATIC URL in Settings.py - https://youtu.be/0VAENL4m7qw
-14.	Django Admin http://127.0.0.1:8000/ admin 
-15.	To add any game just have to connect by login then add image 
+
